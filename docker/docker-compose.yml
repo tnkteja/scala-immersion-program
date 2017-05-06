@@ -1,0 +1,53 @@
+version: '2'
+
+services:
+  kafka:
+    image: spotify/kafka:latest
+    container_name: kafka
+    ports:
+      - "2181:2181"
+      - "9092:9092"
+    environment:
+      - "ADVERTISED_HOST=192.168.99.100"
+      - "ES_JAVA_OPTS=-Xms128m -Xmx128m"
+
+  elasticsearch:
+    image: nshou/elasticsearch-kibana:latest
+    container_name: elasticsearch
+    ports:
+      - "9200:9200"
+      - "5601:5601"
+    environment:
+      - "ES_JAVA_OPTS=-Xms128m -Xmx128m"
+    depends_on:
+      - "kafka"
+
+  neo4j:
+    image: neo4j:latest
+    container_name: neo4j
+    ports:
+      - "7473:7473"
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      - "NEO4J_AUTH=none"
+      - "NEO4J_dbms_memory_pagecache_size=64M"
+      - "NEO4J_dbms_memory_heap_maxSize=64M"
+      - "ES_JAVA_OPTS=-Xms128m -Xmx128m"
+    volumes:
+      - "/c/Users/Murali/Documents/Kitematic/neo4j:/data"
+    depends_on:
+      - "kafka"
+      - "elasticsearch"
+
+  cassandra:
+    image: cassandra:latest
+    container_name: cassandra
+    ports:
+      - "7000:7000"
+      - "9042:9042"
+    environment:
+      - "CASSANDRA_CLUSTER_NAME=TRNG_DOCKERIZED_CASSANDRA_SINGLE_NODE_CLUSTER"
+      - "ES_JAVA_OPTS=-Xms128m -Xmx128m"
+      - "MAX_HEAP_SIZE=128M"
+      - "HEAP_NEWSIZE=64M"
