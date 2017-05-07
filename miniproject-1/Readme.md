@@ -13,10 +13,12 @@ with default [properties](https://github.com/tnkteja/scala-immersion-program/blo
 ![startkafkaserver.png](https://github.com/tnkteja/scala-immersion-program/blob/master/miniproject-1/images/startkafkaserver.png)
 ##  1.0 Step1 - Create a topic named "genomes0" with one  partition
 While the topic can be default created by the Kafka server itself if not exists, we still choose to create a topic ourselves.[1]
+
+
+##2.0 Run miniproject1
 ```bash
+$sbt run
 ```
-
-
 
 
 

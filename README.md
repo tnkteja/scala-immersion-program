@@ -2,16 +2,16 @@
 
 Day|work
 :-:|:-:
-1|[classwork]()
-2|[classwork]()
-3|[classwork]()
-4|[classwork](), [miniproject-1]()
-5|[classwork](), [miniproject-1]()
-6|[miniproject-2]()
-7|[miniproject-2]()
-8|[miniproject-3]()
-9|[miniproject-4]()
-10| [miniproject-4]()
+1|[classwork](https://github.com/tnkteja/scala-immersion-program/tree/master/class/1-Introduction)
+2|[classwork](https://github.com/tnkteja/scala-immersion-program/tree/master/class/2-essentials-of-scala)
+3|[classwork](https://github.com/tnkteja/scala-immersion-program/tree/master/class/3-object-oriented-programming-with-scala)
+4|[classwork](https://github.com/tnkteja/scala-immersion-program/tree/master/class/3-object-oriented-programming-with-scala), [miniproject-1](https://github.com/tnkteja/scala-immersion-program/tree/master/miniproject-1)
+5|[classwork](https://github.com/tnkteja/scala-immersion-program/tree/master/class/4-functional-programming-with-scala), [miniproject-1](https://github.com/tnkteja/scala-immersion-program/tree/master/miniproject-1)
+6|[miniproject-2](https://github.com/tnkteja/scala-immersion-program/tree/master/miniproject-2)
+7|[miniproject-2](https://github.com/tnkteja/scala-immersion-program/tree/master/miniproject-2)
+8|[miniproject-3](https://github.com/tnkteja/scala-immersion-program/tree/master/miniproject-3)
+9|[miniproject-4](https://github.com/tnkteja/scala-immersion-program/tree/master/miniproject-4)
+10| [miniproject-4](https://github.com/tnkteja/scala-immersion-program/tree/master/miniproject-4)
 
 ## Outcomes
 The following is my self-assessment with out of 10 for  each Concept or Technology or Language.
