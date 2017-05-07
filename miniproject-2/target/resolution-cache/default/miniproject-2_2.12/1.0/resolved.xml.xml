@@ -4,7 +4,7 @@
 		module="miniproject-2_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20170505200034"
+		publication="20170506160314"
 	>
 		<description>
 		miniproject-2
@@ -34,5 +34,9 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.2" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.2" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-stream-kafka_2.12" rev="0.16" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-slf4j_2.12" rev="2.4.12" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-stream_2.12" rev="2.4.12" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-http_2.12" rev="10.0.5" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

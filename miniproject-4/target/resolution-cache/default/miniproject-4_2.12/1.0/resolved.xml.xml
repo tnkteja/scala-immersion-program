@@ -4,7 +4,7 @@
 		module="miniproject-4_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20170505200107"
+		publication="20170506222854"
 	>
 		<description>
 		miniproject-4
@@ -34,5 +34,11 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.2" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.2" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-actor_2.12" rev="2.4.16" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-stream_2.12" rev="2.4.16" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-testkit_2.12" rev="2.4.16" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-http_2.12" rev="10.0.1" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-http-spray-json_2.12" rev="10.0.1" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-http-testkit_2.12" rev="10.0.1" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
