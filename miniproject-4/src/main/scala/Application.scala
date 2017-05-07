@@ -49,15 +49,18 @@ trait Service extends Protocols {
   val routes = {
     logRequestResult("ElasticSearchQuerier") {
       pathPrefix("genomes") {
-        (get & path(Segment)) { _ =>
+        (get & path(Segment)) { id =>
           complete {
 
-            Source.single(RequestBuilding.Get(s"/miniproject4/genome/_search"))
+            Source.single(RequestBuilding.Get("/miniproject4/genomes/"+id))
               .via(elasticsearchQueringFlow)
               .runWith(Sink.head)
               .flatMap( { response =>
                 response.status match {
-                  case OK => Unmarshal(response.entity).to[Genome].map(Right(_))
+                  case OK => {
+                    println(response.entity)
+                    Unmarshal(response.entity).to[String].map(Right(_))
+                  }
                   case BadRequest => Future.successful(Left("Bad request to elasticsearch"))
                   case _ => Unmarshal(response.entity).to[String].flatMap { entity =>
                     val error = s"Request to elastic searchh failed with status code ${response.status} and entity $entity"
