@@ -6,7 +6,10 @@ This miniproject  is about reading lines from kafka topic partition from earlier
 ## 0.0 - Setup
 ### 0.1 Running docker
 Docker container with kafka, zookeeper, elasticsearch, cassandra, neoo4j is spun and the respective instances are accesses at 192.168.99.100 at respective ports.
-
+[docker-compose.yml](https://github.com/tnkteja/scala-immersion-program/blob/master/docker/docker-compose.yml)
+```bash
+$docker-compose.exe up 
+```
 ## 1.0 Step1 - Running miniproject1, miniproject2 and miniproject3
 Change the host address of the kafka server instance from localhost to 192.168.99.100.
 ```bash
