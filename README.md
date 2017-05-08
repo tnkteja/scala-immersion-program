@@ -65,14 +65,17 @@ I familiarised about some of the concepts that I already know.
 ### ElasticSearch (5)
 **On a scale of 10, I would rate myself as `5`**
 
-I have worked on project blobeo.com as a freelancer which uses elastic search integrated with springboot at backend.
-Also used in a pet project based on the firebase application built on angularjs and materialjs.
-
 **What I already know..**
+
+I have worked on project blobeo.com as a freelancer which uses elastic search integrated with springboot at backend and also used it similarlly ina course project [Movie Rating Web Application]().
+Also used in a pet project based on the firebase application built on angularjs and materialjs.
 
 **What I learned..**
 
+I familiarised my self with concepts I already learned.
+
 ### Rest (8)
+
 **On a scale of 10, I would rate myself as `8`**
             
 **What I already know..**
