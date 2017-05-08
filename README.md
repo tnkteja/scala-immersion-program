@@ -56,7 +56,7 @@ Cosuming types with scenarios atmost once vs atleast once. And other concepts.
 
 **What I already know..**
 
-I have learned and played with docker on my own and used it in a pet project to deploy the application into Amazon EC2 container service and also locally spun the container. [django-unchained]()
+I have learned and played with docker on my own and used it in a pet project to deploy the application into Amazon EC2 container service and also locally spun the container. [django-unchained](https://github.com/tnkteja/django-unchained)
 
 **What I learned..**
 
@@ -67,7 +67,7 @@ I familiarised about some of the concepts that I already know.
 
 **What I already know..**
 
-I have worked on project blobeo.com as a freelancer which uses elastic search integrated with springboot at backend and also used it similarlly ina course project [Movie Rating Web Application]().
+I have worked on project blobeo.com as a freelancer which uses elastic search integrated with springboot at backend and also used it similarlly ina course project [Movie Rating Web Application](https://github.com/tnkteja/csc510project).
 Also used in a pet project based on the firebase application built on angularjs and materialjs.
 
 **What I learned..**
