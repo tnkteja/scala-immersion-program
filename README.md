@@ -36,27 +36,42 @@ I have created concurrent programs in the past but not extensively.
 
 **What I learned..**
 
+* Actor based programming paradigm
+* Concept of reactive-streams, and programming using Akka.
 
 ### Kafka (5)
 **On a scale of 10, I would rate myself as `5`**
 
 **What I already know..**
 
+I learned about kafka on my own about some of its basic concepts.
+
 **What I learned..**
+
+* The concept of scalable immutable streams with an expiry, producer and consumers.
+Cosuming types with scenarios atmost once vs atleast once. And other concepts.
 
 ### Docker (6)
 **On a scale of 10, I would rate myself as `6`**
 
 **What I already know..**
 
+I have learned and played with docker on my own and used it in a pet project to deploy the application into Amazon EC2 container service and also locally spun the container. [django-unchained]()
+
 **What I learned..**
+
+I familiarised about some of the concepts that I already know.
 
 ### ElasticSearch (5)
 **On a scale of 10, I would rate myself as `5`**
 
+I have worked on project blobeo.com as a freelancer which uses elastic search integrated with springboot at backend.
+Also used in a pet project based on the firebase application built on angularjs and materialjs.
+
 **What I already know..**
 
 **What I learned..**
+
 ### Rest (9)
 **On a scale of 10, I would rate myself as `5`**
             
