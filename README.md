@@ -17,17 +17,26 @@ Day|work
 The following is my self-assessment with out of 10 for  each Concept or Technology or Language.
 
 ### Scala (6.5)
-**On a scale of 10, I would rate myself as `7.5`**
+**On a scale of 10, I would rate myself as `6.5`**
 
 **What I already know..**
 
+* I know python, cpp, Javascript, golang,and Java
+
 **What I learned..**
+
+* Scala is fully loaded with functional and object oriented programming features.
+* While the syntax is somplaces similar to python and golang, the language is more programmer friendly for its declarative nature.
 ### Akka (5)
 **On a scale of 10, I would rate myself as `5`**
 
 **What I already know..**
 
+I have created concurrent programs in the past but not extensively.
+
 **What I learned..**
+
+
 ### Kafka (5)
 **On a scale of 10, I would rate myself as `5`**
 
