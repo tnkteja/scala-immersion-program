@@ -72,25 +72,39 @@ Also used in a pet project based on the firebase application built on angularjs 
 
 **What I learned..**
 
-I familiarised my self with concepts I already learned.
+I familiarised my self with concepts I already learned. I learned about using the visualisation tool Kitematic.
 
 ### Rest (8)
 
 **On a scale of 10, I would rate myself as `8`**
-            
+ 
 **What I already know..**
-            
-**What I learned..*
+ 
+ I am aware of basic concepts of REST API development. I worked two projects freelance project and course project , which are both web applications and use REST API's.
+
+**What I learned**
+
+I learned about good tools used for the REST API development.
+
 ### Cassandra (3)
+
 **On a scale of 10, I would rate myself as `3`**
 
 **What I already know..**
 
+I have learned about sql and database design for sql, to reducce information model from business needs to reduced and normalised entitties, into a Physical ERD. I know basics of NoSQL database, which modelling entities is from the usecases. I have used firebase nosql database for a pet project.
+
 **What I learned..**
+
+I learned about some very basic usage of Cassandra.
+
 ### Neo4j (2)
 **On a scale of 10, I would rate myself as `2`**
 
 **What I already know..**
 
+I know very little about graph Database concepts.
+
 **What I learned..**
 
+I learned about some basic lessons on using neo4j and its visulization tool.
