@@ -72,20 +72,20 @@ Also used in a pet project based on the firebase application built on angularjs 
 
 **What I learned..**
 
-### Rest (9)
-**On a scale of 10, I would rate myself as `5`**
+### Rest (8)
+**On a scale of 10, I would rate myself as `8`**
             
 **What I already know..**
             
 **What I learned..*
 ### Cassandra (3)
-**On a scale of 10, I would rate myself as `5`**
+**On a scale of 10, I would rate myself as `3`**
 
 **What I already know..**
 
 **What I learned..**
 ### Neo4j (2)
-**On a scale of 10, I would rate myself as `5`**
+**On a scale of 10, I would rate myself as `2`**
 
 **What I already know..**
 
